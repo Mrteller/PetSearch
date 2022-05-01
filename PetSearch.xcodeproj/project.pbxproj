@@ -117,6 +117,7 @@
 		AE6A3821269B5E1A0054C842 /* Organization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Organization.swift; sourceTree = "<group>"; };
 		AE6A3824269FC7670054C842 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		AED3FC3326A863A2006D2BEE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DA87B5EF281EF43600A43642 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +148,7 @@
 		18D775B422AD944300AE281E = {
 			isa = PBXGroup;
 			children = (
+				DA87B5EF281EF43600A43642 /* README.md */,
 				18D775BF22AD944300AE281E /* PetSearch */,
 				AE6A37F6269B5B860054C842 /* PetSearchTests */,
 				AE6A3803269B5C050054C842 /* PetSearchUITests */,
