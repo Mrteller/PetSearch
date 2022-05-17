@@ -51,6 +51,7 @@
 		AE6A3822269B5E1A0054C842 /* Organization.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A3821269B5E1A0054C842 /* Organization.swift */; };
 		AE6A3825269FC7670054C842 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A3824269FC7670054C842 /* User.swift */; };
 		DABF60D42833DD20001A5166 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D32833DD20001A5166 /* Animal.swift */; };
+		DABF60D62833FF06001A5166 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D52833FF06001A5166 /* AnimalsMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		AED3FC3326A863A2006D2BEE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DA87B5EF281EF43600A43642 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DABF60D32833DD20001A5166 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		DABF60D52833FF06001A5166 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +385,7 @@
 				84A59F7D269E9BDA00237A83 /* AdoptionStatus.swift */,
 				8FDD2CA226B311AC00DBE33F /* Pagination.swift */,
 				DABF60D32833DD20001A5166 /* Animal.swift */,
+				DABF60D52833FF06001A5166 /* AnimalsMock.swift */,
 			);
 			path = animal;
 			sourceTree = "<group>";
@@ -559,6 +562,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE6A381C269B5DF20054C842 /* Size.swift in Sources */,
+				DABF60D62833FF06001A5166 /* AnimalsMock.swift in Sources */,
 				AE6A3782269B57940054C842 /* SearchView.swift in Sources */,
 				845137A72796247E00A4DA57 /* AnimalTypeSuggestionView.swift in Sources */,
 				847F49F626D3403B00B94FB8 /* APIConstants.swift in Sources */,
