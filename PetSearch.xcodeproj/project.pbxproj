@@ -55,6 +55,7 @@
 		DABF60D92834CADB001A5166 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D82834CADB001A5166 /* RequestProtocol.swift */; };
 		DABF60DB2834D2C0001A5166 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60DA2834D2C0001A5166 /* RequestType.swift */; };
 		DABF60E02834FBDE001A5166 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60DF2834FBDE001A5166 /* NetworkError.swift */; };
+		DABF60E228353D71001A5166 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60E128353D71001A5166 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		DABF60D82834CADB001A5166 /* RequestProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestProtocol.swift; sourceTree = "<group>"; };
 		DABF60DA2834D2C0001A5166 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		DABF60DF2834FBDE001A5166 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		DABF60E128353D71001A5166 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -443,6 +445,7 @@
 			isa = PBXGroup;
 			children = (
 				DABF60DF2834FBDE001A5166 /* NetworkError.swift */,
+				DABF60E128353D71001A5166 /* APIManager.swift */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -592,6 +595,7 @@
 				845137A72796247E00A4DA57 /* AnimalTypeSuggestionView.swift in Sources */,
 				847F49F626D3403B00B94FB8 /* APIConstants.swift in Sources */,
 				84A59F78269E906400237A83 /* AnimalAttributes.swift in Sources */,
+				DABF60E228353D71001A5166 /* APIManager.swift in Sources */,
 				AE6A3795269B59C20054C842 /* PetSearch.xcdatamodeld in Sources */,
 				84A59F74269E8C4700237A83 /* PhotoSizes.swift in Sources */,
 				AE6A380C269B5D9E0054C842 /* Age.swift in Sources */,
