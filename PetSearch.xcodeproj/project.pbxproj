@@ -56,6 +56,10 @@
 		DABF60DB2834D2C0001A5166 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60DA2834D2C0001A5166 /* RequestType.swift */; };
 		DABF60E02834FBDE001A5166 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60DF2834FBDE001A5166 /* NetworkError.swift */; };
 		DABF60E228353D71001A5166 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60E128353D71001A5166 /* APIManager.swift */; };
+		DABF60E4283650D8001A5166 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60E3283650D8001A5166 /* RequestManager.swift */; };
+		DABF610128369CD9001A5166 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF610028369CD9001A5166 /* DataParser.swift */; };
+		DABF610A2837EF54001A5166 /* AuthTokenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF61092837EF54001A5166 /* AuthTokenRequest.swift */; };
+		DABF610D2837F1B3001A5166 /* APIToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF610C2837F1B3001A5166 /* APIToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,6 +134,10 @@
 		DABF60DA2834D2C0001A5166 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
 		DABF60DF2834FBDE001A5166 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		DABF60E128353D71001A5166 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		DABF60E3283650D8001A5166 /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		DABF610028369CD9001A5166 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		DABF61092837EF54001A5166 /* AuthTokenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTokenRequest.swift; sourceTree = "<group>"; };
+		DABF610C2837F1B3001A5166 /* APIToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +361,8 @@
 		AE6A377B269B56460054C842 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				DABF610B2837F188001A5166 /* model */,
+				DABF60FF28369CA8001A5166 /* parser */,
 				DABF60DE2834FBB0001A5166 /* network */,
 				DABF60D72834C9E8001A5166 /* request */,
 				847F49F526D3403B00B94FB8 /* APIConstants.swift */,
@@ -435,6 +445,7 @@
 		DABF60D72834C9E8001A5166 /* request */ = {
 			isa = PBXGroup;
 			children = (
+				DABF61082837EF0B001A5166 /* auth */,
 				DABF60D82834CADB001A5166 /* RequestProtocol.swift */,
 				DABF60DA2834D2C0001A5166 /* RequestType.swift */,
 			);
@@ -446,8 +457,33 @@
 			children = (
 				DABF60DF2834FBDE001A5166 /* NetworkError.swift */,
 				DABF60E128353D71001A5166 /* APIManager.swift */,
+				DABF60E3283650D8001A5166 /* RequestManager.swift */,
 			);
 			path = network;
+			sourceTree = "<group>";
+		};
+		DABF60FF28369CA8001A5166 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				DABF610028369CD9001A5166 /* DataParser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		DABF61082837EF0B001A5166 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				DABF61092837EF54001A5166 /* AuthTokenRequest.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		DABF610B2837F188001A5166 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DABF610C2837F1B3001A5166 /* APIToken.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -591,11 +627,14 @@
 			files = (
 				AE6A381C269B5DF20054C842 /* Size.swift in Sources */,
 				DABF60D62833FF06001A5166 /* AnimalsMock.swift in Sources */,
+				DABF610128369CD9001A5166 /* DataParser.swift in Sources */,
 				AE6A3782269B57940054C842 /* SearchView.swift in Sources */,
 				845137A72796247E00A4DA57 /* AnimalTypeSuggestionView.swift in Sources */,
 				847F49F626D3403B00B94FB8 /* APIConstants.swift in Sources */,
 				84A59F78269E906400237A83 /* AnimalAttributes.swift in Sources */,
 				DABF60E228353D71001A5166 /* APIManager.swift in Sources */,
+				DABF610D2837F1B3001A5166 /* APIToken.swift in Sources */,
+				DABF60E4283650D8001A5166 /* RequestManager.swift in Sources */,
 				AE6A3795269B59C20054C842 /* PetSearch.xcdatamodeld in Sources */,
 				84A59F74269E8C4700237A83 /* PhotoSizes.swift in Sources */,
 				AE6A380C269B5D9E0054C842 /* Age.swift in Sources */,
@@ -615,6 +654,7 @@
 				8472DFAB26BF66EF000FEDAF /* LocationManager.swift in Sources */,
 				AE6A3822269B5E1A0054C842 /* Organization.swift in Sources */,
 				84A59F7A269E920300237A83 /* AnimalEnvironment.swift in Sources */,
+				DABF610A2837EF54001A5166 /* AuthTokenRequest.swift in Sources */,
 				DABF60D92834CADB001A5166 /* RequestProtocol.swift in Sources */,
 				8472150826C1EC33001FD40B /* AnimalHeaderView.swift in Sources */,
 				8FDD2CA326B311AC00DBE33F /* Pagination.swift in Sources */,
