@@ -52,6 +52,8 @@
 		AE6A3825269FC7670054C842 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6A3824269FC7670054C842 /* User.swift */; };
 		DA229DCA283EA7A600ADB44E /* AnimalsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DC9283EA7A600ADB44E /* AnimalsContainer.swift */; };
 		DA229DCC283F9AB600ADB44E /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DCB283F9AB600ADB44E /* AnimalRow.swift */; };
+		DA229DCF283FC72A00ADB44E /* AccessTokenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DCE283FC72A00ADB44E /* AccessTokenManager.swift */; };
+		DA229DD1283FC82000ADB44E /* AppUserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DD0283FC82000ADB44E /* AppUserDefaultsKeys.swift */; };
 		DABF60D42833DD20001A5166 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D32833DD20001A5166 /* Animal.swift */; };
 		DABF60D62833FF06001A5166 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D52833FF06001A5166 /* AnimalsMock.swift */; };
 		DABF60D92834CADB001A5166 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D82834CADB001A5166 /* RequestProtocol.swift */; };
@@ -132,6 +134,8 @@
 		AED3FC3326A863A2006D2BEE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		DA229DC9283EA7A600ADB44E /* AnimalsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsContainer.swift; sourceTree = "<group>"; };
 		DA229DCB283F9AB600ADB44E /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
+		DA229DCE283FC72A00ADB44E /* AccessTokenManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessTokenManager.swift; sourceTree = "<group>"; };
+		DA229DD0283FC82000ADB44E /* AppUserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaultsKeys.swift; sourceTree = "<group>"; };
 		DA87B5EF281EF43600A43642 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DABF60D32833DD20001A5166 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		DABF60D52833FF06001A5166 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
@@ -352,6 +356,7 @@
 			children = (
 				84B0507B26B0EFA800E0A709 /* AddressFetcher.swift */,
 				8472DFAA26BF66EF000FEDAF /* LocationManager.swift */,
+				DA229DD0283FC82000ADB44E /* AppUserDefaultsKeys.swift */,
 			);
 			path = utils;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 		AE6A377B269B56460054C842 /* api */ = {
 			isa = PBXGroup;
 			children = (
+				DA229DCD283FC72A00ADB44E /* token */,
 				DABF610B2837F188001A5166 /* model */,
 				DABF60FF28369CA8001A5166 /* parser */,
 				DABF60DE2834FBB0001A5166 /* network */,
@@ -448,6 +454,14 @@
 				AE6A3824269FC7670054C842 /* User.swift */,
 			);
 			path = user;
+			sourceTree = "<group>";
+		};
+		DA229DCD283FC72A00ADB44E /* token */ = {
+			isa = PBXGroup;
+			children = (
+				DA229DCE283FC72A00ADB44E /* AccessTokenManager.swift */,
+			);
+			path = token;
 			sourceTree = "<group>";
 		};
 		DABF60D72834C9E8001A5166 /* request */ = {
@@ -679,10 +693,12 @@
 				8FDD2CA326B311AC00DBE33F /* Pagination.swift in Sources */,
 				DABF60D42833DD20001A5166 /* Animal.swift in Sources */,
 				845137A82796247E00A4DA57 /* EmptyResultsView.swift in Sources */,
+				DA229DCF283FC72A00ADB44E /* AccessTokenManager.swift in Sources */,
 				8472DFCC26BF93B3000FEDAF /* AnimalsNearYouView.swift in Sources */,
 				DABF61102837F93C001A5166 /* AnimalsRequest.swift in Sources */,
 				84A59F7C269E92F800237A83 /* APIColors.swift in Sources */,
 				AE6A380E269B5DA90054C842 /* Breed.swift in Sources */,
+				DA229DD1283FC82000ADB44E /* AppUserDefaultsKeys.swift in Sources */,
 				84A59F76269E8DF000237A83 /* VideoLink.swift in Sources */,
 				84B0507426B0E45000E0A709 /* AnimalLocationView.swift in Sources */,
 				845137A62796247E00A4DA57 /* SuggestionsGrid.swift in Sources */,
