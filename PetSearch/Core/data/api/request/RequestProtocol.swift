@@ -43,6 +43,7 @@ extension RequestProtocol {
     guard let url = components.url else { throw NetworkError.invalidURL }
     
     var urlRequest = URLRequest(url: url)
+    urlRequest.httpMethod = requestType.rawValue
     
     if !headers.isEmpty {
       urlRequest.allHTTPHeaderFields = headers

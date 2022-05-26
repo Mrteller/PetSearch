@@ -1,15 +1,15 @@
 enum AnimalsRequest: RequestProtocol {
   
-  case getAnimalsWith(page: Int, lattitude: Double?, longitude: Double?)
+  case getAnimalsWith(page: Int, latitude: Double?, longitude: Double?)
   case getAnimalsBy(name: String, age: String?, type: String?)
   var path: String { "/v2/animals" }
   
   var urlParams: [String : String?] {
     switch self {
-    case let .getAnimalsWith(page, lattitude, longitude):
+    case let .getAnimalsWith(page, latitude, longitude):
       var params = ["page": String(page)]
-      if let lattitude = lattitude {
-        params["lattitude"] = String(lattitude)
+      if let latitude = latitude {
+        params["latitude"] = String(latitude)
       }
       if let longitude = longitude {
         params["longitude"] = String(longitude)

@@ -1,3 +1,3 @@
-enum RequestType {
+enum RequestType: String {
   case GET, POST
 }

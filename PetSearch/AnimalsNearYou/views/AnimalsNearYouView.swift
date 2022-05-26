@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct AnimalsNearYouView: View {
-  @State var animals: [Animal] = Animal.mock
+  @State var animals: [Animal] = []
   @State var isLoading = true
   
   private let requestManager = RequestManager()
@@ -15,7 +15,7 @@ struct AnimalsNearYouView: View {
         }
       }
       .task {
-        // await fetchAnimals()
+         await fetchAnimals()
       }
       .listStyle(.plain)
       .navigationTitle("Animals near you")
@@ -33,7 +33,7 @@ struct AnimalsNearYouView: View {
   
   func fetchAnimals() async {
     do {
-      let animalContainer: AnimalContainer = try await requestManager.perform(AnimalsRequest.getAnimalsWith(page: 1, lattitude: nil, longitude: nil))
+      let animalContainer: AnimalContainer = try await requestManager.perform(AnimalsRequest.getAnimalsWith(page: 1, latitude: nil, longitude: nil))
       self.animals = animalContainer.animals
       await stopLoading()
     }
