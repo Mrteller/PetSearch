@@ -56,6 +56,7 @@
 		DA229DD1283FC82000ADB44E /* AppUserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DD0283FC82000ADB44E /* AppUserDefaultsKeys.swift */; };
 		DA229DD7284004D700ADB44E /* APIManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DD6284004D700ADB44E /* APIManagerMock.swift */; };
 		DA229DD92840066500ADB44E /* AccessTokenTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DD82840066500ADB44E /* AccessTokenTestHelper.swift */; };
+		DA229DDB28413CBA00ADB44E /* AnimalsRequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA229DDA28413CBA00ADB44E /* AnimalsRequestMock.swift */; };
 		DABF60D42833DD20001A5166 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D32833DD20001A5166 /* Animal.swift */; };
 		DABF60D62833FF06001A5166 /* AnimalsMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D52833FF06001A5166 /* AnimalsMock.swift */; };
 		DABF60D92834CADB001A5166 /* RequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF60D82834CADB001A5166 /* RequestProtocol.swift */; };
@@ -140,6 +141,7 @@
 		DA229DD0283FC82000ADB44E /* AppUserDefaultsKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaultsKeys.swift; sourceTree = "<group>"; };
 		DA229DD6284004D700ADB44E /* APIManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerMock.swift; sourceTree = "<group>"; };
 		DA229DD82840066500ADB44E /* AccessTokenTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenTestHelper.swift; sourceTree = "<group>"; };
+		DA229DDA28413CBA00ADB44E /* AnimalsRequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsRequestMock.swift; sourceTree = "<group>"; };
 		DA87B5EF281EF43600A43642 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DABF60D32833DD20001A5166 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
 		DABF60D52833FF06001A5166 /* AnimalsMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalsMock.swift; sourceTree = "<group>"; };
@@ -482,6 +484,7 @@
 			isa = PBXGroup;
 			children = (
 				DA229DD6284004D700ADB44E /* APIManagerMock.swift */,
+				DA229DDA28413CBA00ADB44E /* AnimalsRequestMock.swift */,
 			);
 			path = mock;
 			sourceTree = "<group>";
@@ -747,6 +750,7 @@
 				DA229DD92840066500ADB44E /* AccessTokenTestHelper.swift in Sources */,
 				847F4A0626D754D400B94FB8 /* CoreDataTests.swift in Sources */,
 				DA229DD7284004D700ADB44E /* APIManagerMock.swift in Sources */,
+				DA229DDB28413CBA00ADB44E /* AnimalsRequestMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

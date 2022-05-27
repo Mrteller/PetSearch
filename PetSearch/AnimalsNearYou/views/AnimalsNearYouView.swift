@@ -7,7 +7,6 @@ struct AnimalsNearYouView: View {
   private let requestManager = RequestManager()
   
   var body: some View {
-    print(animals.count)
     return NavigationView {
       List{
         ForEach(animals) { animal in
