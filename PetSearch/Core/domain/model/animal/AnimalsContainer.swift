@@ -1,4 +1,4 @@
-struct AnimalContainer: Decodable {
+struct AnimalsContainer: Decodable {
   let animals: [Animal]
   let pagination: Pagination
 }
